@@ -182,11 +182,10 @@
 		{
 			inset="8 0 -1 0"
 			textcolor=white
-			bgcolor="none"
+			bgcolor="green"
 			render_bg
 			{
 				0="image(x0+8,y0+12,x1,y1,graphics/metro/icons/navbar/notifications_active)"
-				1="fill(x0,y1,x1,y1+1,focus)"
 			}
 			render {}
 			padding-left=13
@@ -196,22 +195,22 @@
 		inbox_button_active:hover
 		{
 			textcolor=white
-			bgcolor=white05
+			bgcolor="green"
 			render_bg
 			{
 				0="image(x0+8,y0+12,x1,y1,graphics/metro/icons/navbar/notifications_active)"
-				1="fill(x0,y1,x1,y1+1,focus)"
+				1="fill(x0,y0,x1,y1,white05)"
 			}
 			render {}
 		}
 		inbox_button_active:selected
 		{
 			textcolor=white
-			bgcolor=white10
+			bgcolor="green"
 			render_bg
 			{
 				0="image(x0+8,y0+12,x1,y1,graphics/metro/icons/navbar/notifications_active)"
-				1="fill(x0,y1,x1,y1+1,focus)"
+				1="fill(x0,y0,x1,y1,white10)"
 			}
 			render {}
 		}

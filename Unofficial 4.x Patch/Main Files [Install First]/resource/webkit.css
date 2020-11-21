@@ -2,7 +2,7 @@
 ::-webkit-scrollbar-corner {
 	width: 16px;
 	height: 16px;
-	background: #1a1a1a;
+	background: #24282f;
 }
 
 ::-webkit-scrollbar-button:vertical,
@@ -28,7 +28,7 @@
 }
 
 ::-webkit-scrollbar-track:vertical, ::-webkit-scrollbar-track:horizontal {
-	background-color: #1a1a1a;
+	background-color: #24282f;
 }
 
 /*

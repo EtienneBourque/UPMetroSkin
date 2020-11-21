@@ -92,7 +92,15 @@ gameoverlay.styles
 			minimum-width=40
 			minimum-height=38
 		}
-
+		"FrameCloseButton:hover"
+		{
+			bgcolor=W10close_Red_h
+		}
+		"FrameCloseButton:active"
+		{
+			bgcolor=W10close_Red_p
+			image="graphics/metro/icons/caption/close_p"
+		}
 		"COverlay_Details_Friends CAvatarOverlayImage"
 		{
 			inset-right=-999
